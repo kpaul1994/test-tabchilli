@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>This is our latest products</p>",
+            "text": "<p>This is our expensive products</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
