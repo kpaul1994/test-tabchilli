@@ -1,301 +1,261 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "hero_jVaWmY": {
-      "type": "hero",
+    "hero": {
+      "type": "slideshow",
       "blocks": {
-        "text_YLPk4p": {
-          "type": "text",
-          "name": "t:names.heading",
+        "image-1": {
+          "type": "image",
           "settings": {
-            "text": "<p>This is our expensive products</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "{{ settings.color_palette.background }}",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_H9gpTf": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop all",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button-custom",
-            "custom_button_background": "rgba(0,0,0,0)",
-            "custom_button_text": "{{ settings.color_palette.background }}",
-            "custom_button_border": "{{ settings.color_palette.background }}",
-            "link_text_color": "",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
+            "top_subheading": "RAW. ALIVE. UNPASTEURIZED.",
+            "title": "Fermentation is Life",
+            "title_size": 64,
+            "subheading": "Probiotic-Rich Foods for Your Body, Mind, and Soul.",
+            "link": "",
+            "link_text": "Shop Bundles",
+            "link_2": "",
+            "link_text_2": "Learn to ferment",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "",
+            "parallax_direction": "top",
+            "overlay_opacity": 10
+          }
         }
       },
-      "block_order": [
-        "text_YLPk4p",
-        "button_H9gpTf"
-      ],
-      "name": "t:names.hero",
+      "block_order": ["image-1"],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
-        "media_type_1": "image",
-        "media_type_2": "image",
-        "stack_media_on_mobile": false,
-        "custom_mobile_media": false,
-        "media_type_1_mobile": "image",
-        "media_type_2_mobile": "image",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
-        "vertical_alignment": "flex-end",
-        "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "flex-end",
-        "gap": 24,
-        "section_width": "page-width",
-        "section_height": "medium",
-        "section_height_custom": 50,
-        "background_color": "rgba(0,0,0,0)",
-        "toggle_overlay": true,
-        "overlay_color": "#12121266",
-        "overlay_style": "solid",
-        "gradient_direction": "to bottom",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 100,
-        "padding-block-end": 72
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
       }
     },
-    "product_list_fa6P9H": {
-      "type": "product-list",
+    "shop-by-category": {
+      "type": "featured-collections",
       "blocks": {
-        "static-header": {
-          "type": "_product-list-content",
-          "name": "t:names.header",
-          "static": true,
-          "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
-            "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "background_media": "none",
-            "background_color": "",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_list_text_YFtzcL": {
-              "type": "_product-list-text",
-              "name": "t:names.collection_title",
-              "settings": {
-                "text": "<h3>{{ closest.collection.title }}</h3>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "product_list_button_MWeP9V": {
-              "type": "_product-list-button",
-              "name": "t:names.product_list_button",
-              "settings": {
-                "label": "View all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "custom_button_background": "{{ settings.color_palette.foreground }}",
-                "custom_button_text": "{{ settings.color_palette.background }}",
-                "custom_button_border": "{{ settings.color_palette.background }}",
-                "link_text_color": "",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_list_text_YFtzcL",
-            "product_list_button_MWeP9V"
-          ]
-        },
-        "static-product-card": {
-          "type": "_product-card",
-          "name": "t:names.product_card",
-          "static": true,
-          "settings": {
-            "product_card_gap": 4,
-            "background_color": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_677WP3": {
-              "type": "_product-card-gallery",
-              "name": "t:names.product_card_media",
-              "settings": {
-                "image_ratio": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "product_title_YXxMTj": {
-              "type": "product-title",
-              "name": "t:names.product_title",
-              "settings": {
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "price_JQzVV4": {
-              "type": "price",
-              "name": "t:names.product_price",
-              "settings": {
-                "show_sale_price_first": true,
-                "show_installments": false,
-                "show_tax_info": false,
-                "type_preset": "h6",
-                "width": "100%",
-                "alignment": "left",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "text_color": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_677WP3",
-            "product_title_YXxMTj",
-            "price_JQzVV4"
-          ]
-        }
+        "collection-1": { "type": "collection", "settings": { "collection": "", "title": "Chilli Jam", "focal_point": "center center" } },
+        "collection-2": { "type": "collection", "settings": { "collection": "", "title": "Sauerkraut", "focal_point": "center center" } },
+        "collection-3": { "type": "collection", "settings": { "collection": "", "title": "Pickles", "focal_point": "center center" } },
+        "collection-4": { "type": "collection", "settings": { "collection": "", "title": "Wild Brine", "focal_point": "center center" } },
+        "collection-5": { "type": "collection", "settings": { "collection": "", "title": "Kimchi", "focal_point": "center center" } },
+        "collection-6": { "type": "collection", "settings": { "collection": "", "title": "Red Cabbage · Beetroot", "focal_point": "center center" } }
       },
-      "name": "Featured collection",
+      "block_order": ["collection-1", "collection-2", "collection-3", "collection-4", "collection-5", "collection-6"],
+      "name": "t:sections.featured-collections.presets.collection_list.name",
       "settings": {
-        "collection": "all",
-        "layout_type": "grid",
-        "carousel_on_mobile": false,
-        "max_products": 8,
-        "columns": 4,
-        "mobile_columns": "2",
-        "mobile_card_size": "60cqw",
-        "columns_gap": 8,
-        "rows_gap": 24,
-        "icons_style": "arrow",
-        "icons_shape": "none",
-        "section_width": "page-width",
-        "horizontal_alignment": "flex-start",
-        "gap": 28,
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "title": "Shop by Category",
+        "heading_size": "h2",
+        "divider": false,
+        "per_row": 6
+      }
+    },
+    "bestsellers": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Tradition You Can Taste — Shop Bestsellers",
+        "heading_size": "h2",
+        "home_featured_products": "",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "why-tabchilli": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text-block-1": { "type": "text_block", "settings": { "icon": "heart", "title": "Supports gut microbiome health", "text": "" } },
+        "text-block-2": { "type": "text_block", "settings": { "icon": "sparkle", "title": "Naturally probiotic", "text": "" } },
+        "text-block-3": { "type": "text_block", "settings": { "icon": "ribbon", "title": "HACCP Certified", "text": "" } },
+        "text-block-4": { "type": "text_block", "settings": { "icon": "plant", "title": "Packed with live cultures", "text": "" } },
+        "text-block-5": { "type": "text_block", "settings": { "icon": "shield", "title": "No vinegar. Ever.", "text": "" } },
+        "text-block-6": { "type": "text_block", "settings": { "icon": "location", "title": "Crafted in Dubai", "text": "" } }
+      },
+      "block_order": ["text-block-1", "text-block-2", "text-block-3", "text-block-4", "text-block-5", "text-block-6"],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "Why thousands choose Tabchilli",
+        "heading_size": "h2",
+        "align_text": "left",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#7a8c5c",
+        "button_label": "Shop Fermented Products",
+        "button_link": "",
+        "divider": true
+      }
+    },
+    "build-your-box": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "Build your box once",
+        "title": "Build Your Own Fully Customizable Gut Box",
+        "heading_size": "h2",
+        "text": "<p>Save up to 15% with subscription. Free delivery with subscription.</p>",
+        "button_label": "Subscribe for a Box — 15% OFF",
+        "button_link": "",
+        "image": "",
+        "layout": "left",
+        "height": 650,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "subscribe-and-save": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text-block-1": { "type": "text_block", "settings": { "icon": "trophy", "title": "Priority Access", "text": "" } },
+        "text-block-2": { "type": "text_block", "settings": { "icon": "sales-tag", "title": "Save up to 15%", "text": "" } },
+        "text-block-3": { "type": "text_block", "settings": { "icon": "truck", "title": "Free Delivery", "text": "" } }
+      },
+      "block_order": ["text-block-1", "text-block-2", "text-block-3"],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "Subscribe & Save",
+        "heading_size": "h2",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#7a8c5c",
+        "button_label": "Subscribe & Save 15%",
+        "button_link": "",
+        "divider": true
+      }
+    },
+    "learn-taste-ferment": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text-block-1": { "type": "text_block", "settings": { "icon": "sparkle", "title": "Master Live Cultures", "text": "" } },
+        "text-block-2": { "type": "text_block", "settings": { "icon": "ribbon", "title": "Gain Skills & Confidence", "text": "" } },
+        "text-block-3": { "type": "text_block", "settings": { "icon": "heart", "title": "Join a Community", "text": "" } }
+      },
+      "block_order": ["text-block-1", "text-block-2", "text-block-3"],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "Learn. Taste. Ferment.",
+        "heading_size": "h2",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#7a8c5c",
+        "button_label": "Start Fermenting",
+        "button_link": "",
+        "divider": true
+      }
+    },
+    "workshops": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Fermentation Workshops",
+        "heading_size": "h2",
+        "home_featured_products": "",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "gather-connect-create": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text-block-1": { "type": "text_block", "settings": { "icon": "heart", "title": "Team Building Workshops", "text": "" } },
+        "text-block-2": { "type": "text_block", "settings": { "icon": "location", "title": "Private Venue Hire", "text": "" } }
+      },
+      "block_order": ["text-block-1", "text-block-2"],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "Gather. Connect. Create.",
+        "heading_size": "h2",
+        "align_text": "center",
+        "desktop_columns_per_row": 2,
+        "icon_color": "#7a8c5c",
+        "button_label": "Shop now",
+        "button_link": "",
+        "divider": true
+      }
+    },
+    "unique-taste": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "Unique Taste for Every Occasion",
+        "heading_size": "h2",
+        "text": "",
+        "button_label": "Try Tabchilli",
+        "button_link": "",
+        "image": "",
+        "layout": "right",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "fermentation-journal": {
+      "type": "blog-posts",
+      "name": "t:sections.blog-posts.presets.blog_posts.name",
+      "settings": {
+        "title": "The Fermentation Journal",
+        "heading_size": "h2",
+        "blog": "News",
+        "post_limit": 3,
+        "blog_show_date": true,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": true
+      }
+    },
+    "loved-by-community": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-1": { "type": "testimonial", "settings": { "icon": "5-stars", "testimonial": "<p>If you are from Poland and missing our cucumber pickles - this is the right place to order. I like the service, professional.</p>", "author": "Denys Vasylenko", "author_info": "a month ago" } },
+        "testimonial-2": { "type": "testimonial", "settings": { "icon": "5-stars", "testimonial": "<p>If you are from Poland and missing our cucumber pickles - this is the right place to order. I like the service, professional.</p>", "author": "Sirjo Ruis", "author_info": "a month ago" } },
+        "testimonial-3": { "type": "testimonial", "settings": { "icon": "5-stars", "testimonial": "<p>If you are from Poland and missing our cucumber pickles - this is the right place to order. I like the service, professional.</p>", "author": "carine sabra", "author_info": "a month ago" } }
+      },
+      "block_order": ["testimonial-1", "testimonial-2", "testimonial-3"],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "title": "Loved by Community — 1.3K+ reviews",
+        "heading_size": "h2",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "wild-fermentation-marquee": {
+      "type": "scrolling-text",
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "WILD FERMENTATION",
+        "link": "",
+        "text_size": 90,
+        "text_spacing": true,
+        "direction": "left",
+        "speed": 200
       }
     }
   },
   "order": [
-    "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "hero",
+    "shop-by-category",
+    "bestsellers",
+    "why-tabchilli",
+    "build-your-box",
+    "subscribe-and-save",
+    "learn-taste-ferment",
+    "workshops",
+    "gather-connect-create",
+    "unique-taste",
+    "fermentation-journal",
+    "loved-by-community",
+    "wild-fermentation-marquee"
   ]
 }

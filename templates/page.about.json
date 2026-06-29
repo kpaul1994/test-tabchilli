@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "about-hero": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "image_mask": "none",
+        "image2": "",
+        "image2_mask": "none",
+        "subtitle": "About Us",
+        "title": "Real fermentation. Built in Dubai.",
+        "heading_size": "h1",
+        "text": "<p>Food is supposed to be alive. Not processed. Not rushed.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "story-origin": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "image_mask": "none",
+        "subtitle": "",
+        "title": "I didn't start this to build a brand.",
+        "heading_size": "h2",
+        "text": "<p>I started it because something didn't make sense. More people around me were dealing with gut issues, fatigue, things that didn't have clear answers. At the same time, food was becoming more processed, more packaged, more &ldquo;convenient.&rdquo; And somehow, that became normal. I didn't buy it.</p><p>So I started looking deeper.</p><p>Fermentation kept coming up. Not the version you see on shelves&mdash;but the real one. Salt. Vegetables. Time. Started small. Made mistakes. Threw batches away. Learned the hard way. And slowly, Tabchilli came together.</p>",
+        "button_label": "",
+        "button_link": "",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "how-it-started": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "image2": "",
+        "subtitle": "",
+        "title": "How it actually started",
+        "heading_size": "h2",
+        "text": "<p>Most &ldquo;fermented&rdquo; food today isn't fermented. It's: pasteurised, vinegar-based, built for shelf life.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "real-fermented-food": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "",
+        "title": "We make real fermented food.",
+        "heading_size": "h2",
+        "text": "<p>Nothing complicated. Sauerkraut. Kimchi. Pickles. Kombucha. Simple ingredients. Real process. No shortcuts.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "process-gallery": {
+      "type": "image-grid",
+      "blocks": {
+        "image-1": { "type": "image", "settings": { "image": "", "link": "", "heading": "Simple ingredients" } },
+        "image-2": { "type": "image", "settings": { "image": "", "link": "", "heading": "Real process" } }
+      },
+      "block_order": ["image-1", "image-2"],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "text_alignment": "center",
+        "images_per_row": 2,
+        "image_shape": "landscape",
+        "grid_spacing": 30,
+        "full_width": false,
+        "space_above": true,
+        "space_below": true,
+        "divider": false,
+        "overlay_text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "walk-in-space": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "",
+        "title": "You can walk in, see it, and ask questions.",
+        "heading_size": "h2",
+        "text": "<p>If you walk into our space, you'll get it immediately. Barrels. Vegetables. People working with their hands. Nothing hidden. Production, fermentation, workshops&mdash;it all happens here.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "salt-temp-time": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "",
+        "title": "Salt. Temperature. Time.",
+        "heading_size": "h2",
+        "text": "<p>Fermentation looks simple. Until you actually do it. Salt. Temperature. Time. Get it wrong&mdash;and it fails. Get it right&mdash;and it transforms. We monitor every batch. We don't rush it. We don't fake it.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "tradition-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text-block-1": { "type": "text_block", "settings": { "icon": "sun", "title": "Temperature", "text": "" } },
+        "text-block-2": { "type": "text_block", "settings": { "icon": "shield", "title": "Salt", "text": "" } },
+        "text-block-3": { "type": "text_block", "settings": { "icon": "stopwatch", "title": "Time", "text": "" } },
+        "text-block-4": { "type": "text_block", "settings": { "icon": "gift", "title": "Gifting", "text": "" } }
+      },
+      "block_order": ["text-block-1", "text-block-2", "text-block-3", "text-block-4"],
+      "settings": {
+        "title": "Tradition You Can Taste",
+        "heading_size": "h2",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#7a8c5c",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
+    },
+    "haccp": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "",
+        "title": "This isn't guesswork.",
+        "heading_size": "h2",
+        "text": "<p>We follow HACCP standards to make sure everything is handled, monitored, and safe. Natural process. Strict control.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "community": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "",
+        "title": "A growing community around real food.",
+        "heading_size": "h2",
+        "text": "<p>What started small didn't stay small. Thousands of people have joined our workshops. Hundreds of sessions done.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "find-us": {
+      "type": "map",
+      "settings": {
+        "map_title": "Where you can find us",
+        "heading_size": "h3",
+        "address": "",
+        "map_address": "",
+        "api_key": "",
+        "show_button": true,
+        "background_image": ""
+      }
+    },
+    "impact": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "Impact",
+        "title": "1% of every order supports juvenile arthritis.",
+        "heading_size": "h2",
+        "text": "<p>I didn't want this to just be another brand. So we give back. Because health isn't something you fix alone.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "founder": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "",
+        "subtitle": "",
+        "title": "I'm Maher",
+        "heading_size": "h2",
+        "text": "<p>If I'm asking people to take their health seriously, I have to live it myself. That's why I push it beyond the business. Long-distance swimming. Discipline. Consistency. Because nothing real happens overnight.</p>",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "closing-banner": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "Real fermentation. Built in Dubai.",
+        "heading_size": "h1",
+        "text": "",
+        "button_label": "Shop Fermented Products",
+        "button_link": "",
+        "image": "",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "about-hero",
+    "story-origin",
+    "how-it-started",
+    "real-fermented-food",
+    "process-gallery",
+    "walk-in-space",
+    "salt-temp-time",
+    "tradition-icons",
+    "haccp",
+    "community",
+    "find-us",
+    "impact",
+    "founder",
+    "closing-banner"
+  ]
+}

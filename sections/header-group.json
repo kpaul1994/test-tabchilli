@@ -1,108 +1,106 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "type": "header",
-  "name": "Header",
+  "name": "t:sections.header-group.name",
   "sections": {
-    "header_announcements_9jGBFp": {
-      "type": "header-announcements",
+    "announcement": {
+      "type": "announcement",
       "blocks": {
-        "announcement_BxgCk9": {
-          "type": "_announcement",
+        "announcement-0": {
+          "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "font": "var(--font-subheading--family)",
-            "font_size": "0.75rem",
-            "letter_spacing": "normal",
-            "case": "none"
-          },
-          "blocks": {}
+            "text": "Free shipping",
+            "link_text": "On all orders over $100",
+            "link": ""
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
         }
       },
-      "block_order": [
-        "announcement_BxgCk9"
-      ],
-      "name": "t:names.announcement_bar",
+      "block_order": ["announcement-0", "announcement-1"],
       "settings": {
-        "speed": 5,
-        "section_width": "page-width",
-        "background_color": "{{ settings.color_palette.background }}",
-        "divider_width": 1,
-        "divider_color": "{{ settings.color_palette.color2 }}",
-        "padding-block-start": 15,
-        "padding-block-end": 15
+        "announcement_compact": true,
+        "sticky_on_scroll": true,
+        "sticky_on_mobile": false
       }
     },
-    "header_section": {
+    "header": {
       "type": "header",
       "blocks": {
-        "header-logo": {
-          "type": "_header-logo",
-          "static": true,
+        "mega-menu-1": {
+          "type": "mega_menu",
+          "name": "New",
           "settings": {
-            "hide_logo_on_home_page": false,
-            "padding-block-start": 0,
-            "padding-block-end": 0
-          },
-          "blocks": {}
+            "menu_item": "New",
+            "show_images": false,
+            "image_aspect_ratio": "landscape",
+            "center_content": false,
+            "promo_text_alignment": "center",
+            "promo_heading_size": "small",
+            "promo1_image": "",
+            "promo1_image_shape": "rounded-top",
+            "promo1_link": "",
+            "promo1_heading": "Linen Favorites",
+            "promo1_text": "Breathable, relaxed pieces for everyday wear",
+            "promo1_button_label": "",
+            "promo1_position": "after",
+            "promo2_image": "",
+            "promo2_image_shape": "rounded-top",
+            "promo2_link": "",
+            "promo2_heading": "New This Week",
+            "promo2_text": "",
+            "promo2_button_label": "The Wren Coat",
+            "promo2_position": "after"
+          }
         },
-        "header-menu": {
-          "type": "_header-menu",
-          "static": true,
+        "mega-menu-2": {
+          "type": "mega_menu",
+          "name": "Clothing",
           "settings": {
-            "menu": "main-menu",
-            "type_font_primary_size": "0.875rem",
-            "menu_font_style": "inverse",
-            "type_font_primary_link": "body",
-            "type_case_primary_link": "none",
-            "menu_style": "featured_products",
-            "featured_products_aspect_ratio": "4 / 5",
-            "featured_collections_aspect_ratio": "16 / 9",
-            "image_border_radius": 0,
-            "navigation_bar": false,
-            "drawer_accordion": false,
-            "drawer_accordion_expand_first": false,
-            "drawer_dividers": false
-          },
-          "blocks": {}
+            "menu_item": "Clothing",
+            "show_images": true,
+            "image_aspect_ratio": "landscape",
+            "center_content": false,
+            "promo_text_alignment": "left",
+            "promo_heading_size": "medium",
+            "promo1_image_shape": "landscape",
+            "promo1_link": "",
+            "promo1_heading": "",
+            "promo1_text": "",
+            "promo1_button_label": "",
+            "promo1_position": "after",
+            "promo2_image_shape": "landscape",
+            "promo2_link": "",
+            "promo2_heading": "",
+            "promo2_text": "",
+            "promo2_button_label": "",
+            "promo2_position": "after"
+          }
         }
       },
+      "block_order": ["mega-menu-1", "mega-menu-2"],
       "settings": {
-        "logo_position": "left",
-        "menu_position": "left",
-        "menu_row": "top",
-        "show_search": true,
-        "search_position": "right",
-        "search_row": "top",
-        "show_country": true,
-        "country_selector_style": false,
-        "show_language": true,
-        "localization_font": "heading",
-        "localization_font_size": "0.875rem",
-        "localization_position": "right",
-        "localization_row": "top",
-        "section_width": "page-width",
-        "section_height": "standard",
-        "enable_sticky_header": "always",
-        "divider_width": 0,
-        "divider_size": "page-width",
-        "border_width": 0,
-        "background_color_top": "{{ settings.color_palette.background }}",
-        "enable_transparent_header_home": false,
-        "enable_transparent_header_product": false,
-        "enable_transparent_header_collection": false
+        "logo": "",
+        "desktop_logo_width": 160,
+        "mobile_logo_width": 120,
+        "main_menu_link_list": "main-menu",
+        "hover_menu": true,
+        "main_menu_alignment": "center",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "new-toolbar",
+        "toolbar_social": true,
+        "show_currency_selector": true,
+        "show_currency_flags": false,
+        "show_locale_selector": true
       }
     }
   },
-  "order": [
-    "header_announcements_9jGBFp",
-    "header_section"
-  ]
+  "order": ["announcement", "header"]
 }
