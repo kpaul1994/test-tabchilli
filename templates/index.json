@@ -83,7 +83,7 @@
         "heading_size": "h2",
         "align_text": "left",
         "desktop_columns_per_row": 3,
-        "icon_color": "#7a8c5c",
+        "icon_color": "#185640",
         "button_label": "Shop Fermented Products",
         "button_link": "",
         "divider": true
@@ -121,7 +121,7 @@
         "heading_size": "h2",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#7a8c5c",
+        "icon_color": "#185640",
         "button_label": "Subscribe & Save 15%",
         "button_link": "",
         "divider": true
@@ -141,7 +141,7 @@
         "heading_size": "h2",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#7a8c5c",
+        "icon_color": "#185640",
         "button_label": "Start Fermenting",
         "button_link": "",
         "divider": true
@@ -174,7 +174,7 @@
         "heading_size": "h2",
         "align_text": "center",
         "desktop_columns_per_row": 2,
-        "icon_color": "#7a8c5c",
+        "icon_color": "#185640",
         "button_label": "Shop now",
         "button_link": "",
         "divider": true
