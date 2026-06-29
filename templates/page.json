@@ -1,1 +1,60 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "1782735712d6fa40ee": {
+      "type": "apps",
+      "blocks": {
+        "evey_events_tickets_event_showcase_KCyFwP": {
+          "type": "shopify://apps/evey-events-tickets/blocks/event-showcase/0ff19eb4-83c2-40c2-b780-a501fc99b6d8",
+          "settings": {
+            "filter_option_all_dates_text": "",
+            "filter_option_today_text": "",
+            "filter_option_this_month_text": "",
+            "search_placeholder_text": "",
+            "search_background_color": "",
+            "search_text_color": "",
+            "search_border_color": "",
+            "sort_button_text": "",
+            "filters_text_color": "",
+            "date_filter_background_color": "",
+            "date_filter_border_color": "",
+            "sort_button_background_color": "",
+            "sort_button_border_color": "",
+            "not_found_text": "",
+            "not_found_helper_text": "",
+            "not_found_background_color": "",
+            "not_found_border_color": "",
+            "not_found_text_color": "",
+            "event_cards_text_color": "",
+            "event_cards_background_color": "",
+            "event_cards_border_color": "",
+            "event_cards_divider_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "evey_events_tickets_event_showcase_KCyFwP"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1782735712d6fa40ee"
+  ]
+}
